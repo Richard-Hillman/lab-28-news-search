@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewsSearch component renders NewsSearch 1`] = `
+<DocumentFragment>
+  <div
+    style="background-color: grey; width: 80vh; height: 20vw; color: black;"
+  >
+    <h1
+      style="color: yellow;"
+    >
+       Search the NEWS
+    </h1>
+    <input
+      default=""
+    />
+    <button>
+       Search 
+    </button>
+  </div>
+</DocumentFragment>
+`;
