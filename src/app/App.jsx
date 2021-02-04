@@ -1,6 +1,6 @@
 import React from 'react';
 
-import NewsDisplay from '../presentational/NewsDisplay';
+import NewsDisplay from '../controls/NewsDisplay';
 
 
 export default class App extends React.Component { 
