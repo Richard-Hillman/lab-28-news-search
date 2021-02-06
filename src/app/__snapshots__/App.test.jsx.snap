@@ -14,17 +14,19 @@ exports[`App component renders App 1`] = `
       <div
         style="background-color: grey; width: 80vh; height: 20vw; color: black;"
       >
-        <h1
-          style="color: yellow;"
-        >
-           Search the NEWS
-        </h1>
-        <input
-          default=""
-        />
-        <button>
-           Search 
-        </button>
+        <form>
+          <h1
+            style="color: yellow;"
+          >
+             Search the NEWS
+          </h1>
+          <input
+            value="search the news"
+          />
+          <button>
+             Search 
+          </button>
+        </form>
       </div>
       <div
         style="background-color: black; width: 50vh; height: 70vw; color: white;"
@@ -32,6 +34,7 @@ exports[`App component renders App 1`] = `
         <h1>
            Results 
         </h1>
+        ;
       </div>
     </div>
   </div>
