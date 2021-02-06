@@ -2,17 +2,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const NewsSearch = ({ handleClick, handlesubmit }) => (
+const NewsSearch = ({ handleClick, handleSubmit }) => (
  
   // eslint-disable-next-line max-len
   <div style={{ backgroundColor: 'grey', width: '80vh', height: '20vw', color: 'black' }}>
    
     {/* ------------------------ */}
    
-    <form handleSubmit = { handlesubmit }>
+    <form handleSubmit = { handleSubmit }>
 
       <h1 style={{ color: 'yellow' }}> Search the NEWS</h1>
-      <input default="search the news"  onChange = { handleClick }></input>    
+      <input value="search the news"  onChange = { handleClick }></input>    
       <button> Search </button>
     
     </form>
@@ -24,7 +24,7 @@ const NewsSearch = ({ handleClick, handlesubmit }) => (
 
 NewsSearch.propTypes = {
   handleClick: PropTypes.func.isRequired,
-  handlesubmit:PropTypes.func.isRequired
+  handleSubmit:PropTypes.func.isRequired
 };
 
 export default NewsSearch;

@@ -33,7 +33,11 @@ export default class NewsDisplay extends React.Component {
     
           <h1> Welcome to the NEWS</h1>
 
-          <NewsSearch searchText = {this.state.searchText } handleClick = { this.handleClick } handlesubmit = { this.handleSubmit } /> 
+          <NewsSearch  
+            searchText = {this.state.searchText } 
+            handleClick = { this.handleClick } 
+            handleSubmit = { this.handleSubmit } 
+          /> 
   
           <NewsList searchResults = { this.state.searchResults } />
 
